@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+body {
+    background-color: rgb(47, 47, 47);
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+/* Nav styles */
+ul {
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(109, 238, 255);
+    margin: 0.5em;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+/* Intro styles */
+.intro {
+    color: white;
+    text-align: center;
+}
+
+.gopher {
+    border-radius: 25%;
+    width: 10em;
+}
+
+.email {
+    color: white;
+}
+
+.email:hover {
+    color: rgb(109, 238, 255);
+}
